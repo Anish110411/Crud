@@ -3,7 +3,7 @@ from .forms import Studentinfo
 from django.core import validators
 from .models import Student
 
-# Create your views h
+# Create your views h fffff
 def home(request):
     if request.method=="POST":
         stud=Studentinfo(request.POST)
